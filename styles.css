@@ -1,0 +1,134 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #090a17;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+p {
+  margin: 0;
+}
+header {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 15px;
+  background-color: white;
+  height: 50px;
+  padding-top: 25px;
+}
+.topsection {
+  background-color: #090a17;
+}
+@font-face {
+  font-family: ArchivoBlack;
+  src: url(/ArchivoBlack-Regular.ttf);
+}
+
+.heroimage {
+  width: 100%;
+  min-height: 95vh;
+  background-color: #090a17;
+  position: relative;
+  background-image: url("me.png");
+  background-repeat: no-repeat;
+  background-size: 70% auto;
+  background-position: center right;
+}
+.heroimage {
+  background-transform: rotate(90deg);
+}
+.sidebar {
+  width: 500px;
+  min-height: 100px;
+}
+
+h1 {
+  color: #f58075;
+  text-align: left;
+  font-family: "ArchivoBlack";
+  padding-left: 10%;
+  margin-right: 0px;
+  padding-top: 70vh;
+}
+
+.sidebar h2 {
+  color: #090a17;
+  text-align: left;
+  font-family: "ArchivoBlack";
+  font-size: 115px;
+}
+.wrapper_sidebar {
+  width: 80%;
+  height: 80%;
+}
+
+.wrapper_sidebar h3 {
+  color: #090a17;
+  text-align: left;
+  font-family: "Montserrat";
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.heroimage h2 {
+  color: white;
+  opacity: 0.8;
+  text-align: left;
+  font-family: "Montserrat";
+  padding-left: 10%;
+  font-size: 25px;
+}
+
+.mainwrapper {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.bn3637 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  backface-visibility: hidden;
+  border: 5px solid transparent;
+  border-radius: 3rem;
+}
+
+.bn36 {
+  border-color: #fff;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  margin: 40px auto;
+}
+
+.bn36:hover {
+  border-color: #426f9d;
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  color: #426f9d;
+}
+
+.getintouch {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: #090a17;
+  height: 200px;
+}
+
+.imagefooter {
+  width: 100%;
+  height: 100%;
+  background-image: url("Portfolio_image.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
